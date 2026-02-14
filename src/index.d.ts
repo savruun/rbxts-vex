@@ -48,7 +48,7 @@ export interface VexOptions {
 
 export interface VoxelStructure {
     /**
-     * Destroys the VoxelStructure and its physical Model/BasePart.
+     * Destroys the original model and applies voxelization. Use this before applying forces.
      */
     Destroy(): void;
 
