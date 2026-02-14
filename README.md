@@ -23,11 +23,14 @@ Created by EternalEthel/qrisquinn. Ported to Typescript for rbxts by savruun.
 
 ### Installation
 Install package via [NPM](https://www.npmjs.com/package/rbxts-vex):
-Drag rbxts-vex folder in node_modules folder.
 
 ```sh
 npm i rbxts-vex
 ```
+
+Drag rbxts-vex folder in node_modules folder.
+
+*Done!*
 
 ### Usage Example
 Here's some basic examples of using the vex module:
