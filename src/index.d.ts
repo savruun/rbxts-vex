@@ -1,4 +1,4 @@
-export interface VexOptions {
+interface VexOptions {
     /**
      * Bigger voxels = better performance.
      * @default 1
@@ -46,7 +46,7 @@ export interface VexOptions {
     weldAdjacent?: boolean;
 }
 
-export interface VoxelStructure {
+interface VoxelStructure {
     /**
      * Destroys the original model and applies voxelization. Use this before applying forces.
      */
@@ -71,13 +71,13 @@ export interface VoxelStructure {
     GetVoxelCount(): number;
 }
 
-export interface VoxelPoolStats {
+interface VoxelPoolStats {
     readonly active: number;
     readonly pooled: number;
     readonly total: number;
 }
 
-declare const Vex: {
+interface Vex{
     /**
      * 
      * @param source The BasePart or Model to voxelize.
@@ -97,4 +97,5 @@ declare const Vex: {
     clearPool(): void;
 }
 
-export default Vex;
+declare const Vex: Vex;
+export = Vex;
