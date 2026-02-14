@@ -1,8 +1,8 @@
 {
-  "name": "rbxts-vex",
+  "name": "@rbxts*/vex",
   "main": "src/init.luau",
   "types": "src/index.d.ts",
-  "version": "1.0.7",
+  "version": "0.0.1",
   "description": "An efficient, performance-minded voxel destruction model. Created by EternalEthel/qrisquinn (same person).",
   "license": "MIT",
   "author": "kunosyn",
