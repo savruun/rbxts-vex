@@ -18,7 +18,7 @@ An efficient, performance-minded voxel destruction model.
 Created by EternalEthel/qrisquinn. Ported to Typescript for rbxts by savruun.
 
 > [!IMPORTANT]
-> This package is a port of [Vex 2.0](https://devforum.roblox.com/t/vex-20-remastered-for-your-voxel-destruction-needs/1619456) last updated in January of 2022 meaning this package is not updated anymore. I am also NOT currently in the rbxts org, this means you will have to drag rbxts-vex into your node_modules folder before use.
+> This package is a port of [Vex 2.0](https://devforum.roblox.com/t/vex-20-remastered-for-your-voxel-destruction-needs/1619456) last updated in January of 2022 meaning this package is not updated anymore. I am also NOT currently in the rbxts org, this means you will have to drag rbxts-vex into your node_modules/@rbxts folder before use.
 
 
 ### Installation
@@ -28,7 +28,7 @@ Install package via [NPM](https://www.npmjs.com/package/rbxts-vex):
 npm i rbxts-vex
 ```
 
-Drag rbxts-vex folder in node_modules folder.
+Drag rbxts-vex folder into node_modules/@rbxts.
 
 *Done!*
 
