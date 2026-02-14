@@ -1,8 +1,8 @@
-<!-- <div align="center">
+<div align="center">
   <p>
-    <img src= />
+    <img src=https://i.imgur.com/EEJZQKb.png />
   </p>
-</div> -->
+</div>
 
 <div align="center">
   <a href=https://www.npmjs.com/package/rbxts-vex>
